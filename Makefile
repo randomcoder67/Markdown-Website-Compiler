@@ -1,5 +1,5 @@
 normal:
-	go build -o gorender render.go
+	go build -o gorender main.go setup.go renderer.go
 
 install:
 	cp gorender ~/.local/bin/
